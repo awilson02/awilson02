@@ -1,0 +1,530 @@
+html {
+  scroll-behavior: smooth;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+
+}
+
+body
+{
+    font-size: 16px;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+.button
+{
+    height: 30px;
+    width: 110px;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+ 
+    border-radius: 17px;
+    background-color: #009EE6;
+    color: white;
+    padding: 7px 7px  7px;
+    text-align:center;
+    
+
+}
+
+#PicAbout
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 1em;
+
+
+}
+
+#dropDown
+{
+        height: 0;
+        display: none;
+         z-index: 0;
+
+}
+
+.button:hover
+{
+   color: black;
+   background-color: #ececec;
+
+}
+.nav
+{
+    height: 40px;
+}
+#topofPage
+{
+
+    padding-top: 50px;
+   height: 375px;
+   background-color: #ececec;
+   text-align: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+
+
+}
+img {
+
+    object-fit: contain;
+    height: 45%;
+    width: 45%;
+    max-width: 900px;
+    max-height: 800px;
+    opacity:  1;
+
+}
+
+#me
+{
+    min-height: 50%;
+     min-width: 50%;
+     border-radius: 35%;
+ }
+
+ .verticleIMG
+ {
+    
+     height: 30%;
+    width: 30%;
+ }
+
+#pic
+{
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+
+}
+.homeText
+{
+    text-size-adjust: auto;
+    display: flex;
+   flex-direction: row;
+    width: 100%;
+   align-items: center;
+    align-self: center;
+
+
+}
+
+.column
+{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+#about
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 1em;
+   width: 100%;
+   margin: auto;
+}
+
+
+.name
+{
+    font-size: x-large;
+    width: 200px;
+    padding-left: 1em;
+}
+.homeText h3
+{
+    border-bottom: solid black thin;
+}
+.homeText h3 p {
+    font-size: 18px;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+#School
+{
+  
+    padding-bottom: 5em;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+
+
+}
+
+#Personal
+{
+    padding-bottom: 5em;
+    display: inline-block;
+}
+.pro
+{
+
+    width: 600px;
+    margin-right: auto;
+    align-self: center;
+    margin-left: auto;
+
+
+
+}
+.panel-primary
+{
+   min-height: 350px;
+}
+.pro:hover
+{
+
+    transform: scale(1.05) ;
+    transition: transform 0.25s ease;
+    box-shadow: 0 0 5px #696666;
+    border-radius: 5px;
+
+}
+
+.Projects
+{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+.para
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: center;
+    margin-left: 10px;
+    border-bottom: black solid thin;
+    width: 50em;
+}
+.Projects .Project
+{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+   
+}
+
+.proTitle 
+{
+    width: 80%;
+    padding-right: 1em;
+    min-width: 150px;
+    
+}
+
+
+.decript
+{
+    width: 75%;
+    padding-left: 2em;
+    align-self: center;
+}
+.decriptSkill
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.skillWell
+{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color: black;
+    background-color: #F5F5F5;
+}
+dd
+{
+    max-width: 150px;
+}
+.proTitle
+{
+    border-right: black solid thin;
+
+    width: 25%
+}
+
+
+.proTitle h4
+{
+    width: 50%
+}
+
+.borderbottem
+{
+    border-bottom: 0.5em #e6bb00 solid;
+    width: 80%;
+    margin-bottom: 5px;
+ 
+}
+.borderbottem2
+{
+    border-bottom: 0.5em #009EE6 dashed;
+    width: 30%;
+    float: right;
+    margin-right: 20px;
+
+ 
+}
+.borderTransition1
+{
+    border-bottom: 0.5em #009EE6 solid;
+    width: 60%;
+    border-radius: 30px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+
+.borderTransition2
+{
+    border-bottom: 0.5em #009EE6 solid;
+    width: 80%;
+    border-radius: 30px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+
+
+
+.scrolled
+{
+    transition: 500ms; 
+    transform: translateX(50%)
+}
+
+
+
+footer
+{
+    font-family: SansSerif;
+    padding-top: 1em;
+    background-color: black;
+    height: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+}
+
+footer a
+{
+    text-decoration: none;
+    color:white;
+    padding: 1em;
+    
+}
+
+footer a:hover
+{
+   
+    color: #009EE6;
+   
+    
+}
+
+#Contact
+{
+    width: 50%;
+   
+    margin: auto;
+    text-align: center; 
+
+
+}
+
+
+.projLink
+{
+    text-decoration: none;
+    color: #009EE6;
+}
+
+
+.projLink:hover
+{
+    text-decoration: none;
+    color: #e6bb00;
+}
+
+.projLink:active
+{
+    text-decoration: none;
+}
+.projLink:visited
+{
+    text-decoration: none;
+}
+
+
+
+
+#edu
+{
+    background-color: #009EE6;
+    color: white;
+
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#eduRow
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding-bottom: 50px;
+}
+#skillRow
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.eduRow
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+.well
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color: black;
+    width: 420px;
+}
+
+
+.rightSide
+{
+    transform: translateX(400%);
+    transition: transform 1s ease;
+}
+.leftSide
+{
+    transition: transform 1s ease;
+    transform: translateX(-400%);
+}
+.bottomSlide
+{
+    transform: translateY(100%);
+    transition: transform 1.5s ease;
+}
+.slideIn
+{
+    transform: translateX(0%);
+    transform: translateY(0%);
+}
+
+
+
+#skills
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    margin: auto;
+
+
+}
+dt
+{
+    width: 150px;
+}
+@media screen and (max-width: 900px)
+{
+
+    html
+    {
+        height:max-content;
+    }
+
+
+   
+    .Projects .Project
+    {
+        flex-direction: column;
+    }
+
+
+    .para
+    {
+        width:95%;
+        flex-direction: column;
+    }
+
+    .proTitle
+    {
+        border-right: none;
+        
+        width: 95%;
+  
+    }
+
+
+    .proTitle h4
+    {
+        width: 95%;
+    }
+
+    #PicAbout
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 1em;
+    }
+
+
+
+}
