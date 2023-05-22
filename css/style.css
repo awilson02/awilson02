@@ -8,6 +8,8 @@ body
 {
     font-size: 16px;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
+    background-color: #212121;
+    color: white;
 }
 .button
 {
@@ -63,7 +65,7 @@ body
 
     padding-top: 50px;
    height: 375px;
-   background-color: #ececec;
+   background-color: #212121;
    text-align: center;
 }
 
@@ -177,7 +179,7 @@ img {
     margin-right: auto;
     align-self: center;
     margin-left: auto;
-
+    color: black;
 
 
 }
@@ -280,13 +282,14 @@ dd
 .borderbottem
 {
     border-bottom: 0.5em #e6bb00 solid;
-    width: 80%;
+
     margin-bottom: 5px;
- 
+    width: auto;
+    margin-right: 25%
 }
 .borderbottem2
 {
-    border-bottom: 0.5em #009EE6 dashed;
+    border-bottom: 0.5em #0572ad dashed;
     width: 30%;
     float: right;
     margin-right: 20px;
@@ -295,8 +298,8 @@ dd
 }
 .borderTransition1
 {
-    border-bottom: 0.5em #009EE6 solid;
-    width: 60%;
+    border-bottom: 0.5em #0572ad solid;
+    width: 45%;
     border-radius: 30px;
     align-self: center;
     margin: auto;
@@ -307,8 +310,8 @@ dd
 
 .borderTransition2
 {
-    border-bottom: 0.5em #009EE6 solid;
-    width: 80%;
+    border-bottom: 0.5em #048dda solid;
+    width: 60%;
     border-radius: 30px;
     align-self: center;
     margin: auto;
@@ -391,7 +394,7 @@ footer a:hover
 
 #edu
 {
-    background-color: #009EE6;
+    background-color: #048dda;
     color: white;
 
     text-align: center;
@@ -426,9 +429,6 @@ footer a:hover
     width: 100%;
     display: flex;
     flex-direction: row;
-
-    align-items: center;
-
     padding-bottom: 50px;
 }
 
@@ -439,6 +439,7 @@ footer a:hover
     margin: auto;
     color: black;
     width: 420px;
+    margin-bottom: 5px;
 }
 
 
@@ -480,7 +481,7 @@ dt
 {
     width: 150px;
 }
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1100px)
 {
 
     html
@@ -505,9 +506,9 @@ dt
     .proTitle
     {
         border-right: none;
-        
+
         width: 95%;
-  
+
     }
 
 
@@ -523,8 +524,47 @@ dt
         align-items: center;
         margin: auto;
         padding: 1em;
+
     }
 
 
+    .eduRow
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding-bottom: 50px;
+    }
+    #eduRow
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding-bottom: 50px;
+    }
+
+    #about
+    {
+
+        margin-top: 20%;
+    }
+    .borderbottem
+    {
+        font-size: x-large;
+        text-align: center;
+        align-self: center;
+        margin-left: 24%;
+
+    }
+    .name
+    {
+      padding-left: 0px;
+    }
 
 }
