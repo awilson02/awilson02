@@ -80,24 +80,25 @@ body
     height:fit-content;
    
 }
-img {
 
+
+#me {
     object-fit: contain;
     height: 45%;
     width: 45%;
     max-width: 900px;
     max-height: 800px;
-    opacity:  1;
-
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
 }
 
-#me
-{
-     height: 100%;
-     width: 100%;
-     border-radius: 0%;
- }
-
+.badge {
+    height: 100%;
+    width: 100%;
+  
+}
 .verticleIMG {
     height: 100%;
     width: 100%;
@@ -105,27 +106,29 @@ img {
 
 #pic
 {
-   display: flex;
-   flex-direction: column;
-    a
+   
   width:30%;
 
 }
-.homeText
-{
+#badge {
+  
+    margin:auto;
+   
+    align-content: center;
+   
+}
+.homeText {
     text-size-adjust: auto;
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
     width: 100%;
-   align-items: center;
+    align-items: center;
     align-self: center;
-
-
 }
 
 .column
 {
-    width: 55%;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,15 +140,15 @@ img {
    flex-direction: column;
    align-items: center;
    padding: 1em;
-   width: 70%;
-   margin: auto;
+   width: 33%;
+
 }
 #textandPic {
     display: flex;
     flex-direction: row;
     align-items: end;
-    margin-left: 12.5%;
-    width:75%;
+
+    width:100%;
 }
 
 
